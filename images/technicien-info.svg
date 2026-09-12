@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#3730a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="120" cy="80" r="140" fill="#ffffff" opacity="0.08"/>
+  <circle cx="700" cy="380" r="130" fill="#ffffff" opacity="0.08"/>
+  <circle cx="640" cy="120" r="70" fill="#ffffff" opacity="0.06"/>
+  <!-- Laptop -->
+  <rect x="250" y="90" width="300" height="196" rx="16" fill="#ffffff"/>
+  <rect x="266" y="106" width="268" height="164" rx="9" fill="#312e81"/>
+  <rect x="286" y="126" width="110" height="11" rx="5.5" fill="#a5b4fc"/>
+  <rect x="286" y="148" width="160" height="11" rx="5.5" fill="#c7d2fe" opacity="0.9"/>
+  <rect x="310" y="170" width="130" height="11" rx="5.5" fill="#a5b4fc" opacity="0.75"/>
+  <rect x="286" y="192" width="84" height="11" rx="5.5" fill="#fbbf24"/>
+  <rect x="310" y="214" width="150" height="11" rx="5.5" fill="#c7d2fe" opacity="0.65"/>
+  <!-- Laptop base -->
+  <path d="M222 286h356l30 34c4 5 1 12-6 12H198c-7 0-10-7-6-12l30-34z" fill="#e0e7ff"/>
+  <rect x="360" y="296" width="80" height="12" rx="6" fill="#a5b4fc"/>
+  <!-- Gear -->
+  <g transform="translate(640,250)">
+    <g fill="#ffffff">
+      <rect x="-9" y="-64" width="18" height="24" rx="4"/>
+      <rect x="-9" y="40" width="18" height="24" rx="4"/>
+      <rect x="-64" y="-9" width="24" height="18" rx="4"/>
+      <rect x="40" y="-9" width="24" height="18" rx="4"/>
+      <rect x="-9" y="-64" width="18" height="24" rx="4" transform="rotate(45)"/>
+      <rect x="-9" y="40" width="18" height="24" rx="4" transform="rotate(45)"/>
+      <rect x="-64" y="-9" width="24" height="18" rx="4" transform="rotate(45)"/>
+      <rect x="40" y="-9" width="24" height="18" rx="4" transform="rotate(45)"/>
+    </g>
+    <circle r="44" fill="#ffffff"/>
+    <circle r="20" fill="#4338ca"/>
+  </g>
+  <!-- Wrench -->
+  <g transform="translate(150,270) rotate(-30)">
+    <rect x="-11" y="0" width="22" height="130" rx="11" fill="#ffffff"/>
+    <path d="M-26-40a34 34 0 0 0 52 30l14 14-22 22-14-14A34 34 0 0 1-26-40z" fill="#ffffff"/>
+    <circle cy="-14" r="12" fill="#4f46e5"/>
+  </g>
+  <!-- Screwdriver -->
+  <g transform="translate(540,388) rotate(15)">
+    <rect x="-8" y="-10" width="16" height="86" rx="8" fill="#fbbf24"/>
+    <rect x="-4" y="76" width="8" height="26" fill="#e0e7ff"/>
+  </g>
+</svg>

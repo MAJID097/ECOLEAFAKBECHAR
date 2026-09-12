@@ -7,6 +7,7 @@
 /* ---------- Base ---------- */
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -98,4 +99,100 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #1e3777;
+}
+
+/* ========================================================
+   Fully Responsive enhancements
+   Mobile-first, with breakpoints for phones (<=600px),
+   tablets (<=900px) and large desktops (>=1024px).
+   ======================================================== */
+
+/* ---------- Fluid media: images never break the layout ---------- */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Keep anchored sections clear of the fixed navbar */
+section[id],
+footer[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* ---------- Phones (max-width: 600px) ---------- */
+@media (max-width: 600px) {
+  /* Fluid hero heading (scales smoothly between ~29px and 38px) */
+  #home h1 {
+    font-size: clamp(1.8rem, 8.5vw, 2.4rem);
+    line-height: 1.35;
+  }
+
+  /* Fluid section headings */
+  #specialties h2,
+  #stats h2,
+  #testimonials h2,
+  #register h2 {
+    font-size: clamp(1.7rem, 7.5vw, 2.05rem);
+  }
+
+  /* Compact floating action buttons */
+  #whatsapp-btn .animate-ping,
+  #whatsapp-btn .relative {
+    height: 3.25rem;
+    width: 3.25rem;
+  }
+  #whatsapp-btn {
+    right: 1rem;
+    bottom: 1rem;
+  }
+  #back-to-top {
+    left: 1rem;
+    bottom: 1rem;
+    height: 3.25rem;
+    width: 3.25rem;
+  }
+  #whatsapp-btn svg,
+  #back-to-top svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  /* Contact rows wrap gracefully on narrow screens */
+  footer li {
+    flex-wrap: wrap;
+  }
+
+  /* Documents list cards keep a comfortable radius/padding */
+  #documents .group {
+    padding: 1.25rem;
+  }
+}
+
+/* ---------- Tablets (max-width: 900px) ---------- */
+@media (max-width: 900px) {
+  /* Tighter gutters in card grids */
+  #specialties .mt-14.grid,
+  #testimonials .mt-14.grid {
+    gap: 1.5rem;
+  }
+
+  /* Keep buttons fully clickable and centered */
+  #specialties .specialty-btn {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  /* Hero CTAs never outgrow the container */
+  #home .mx-auto.max-w-7xl a {
+    max-width: 100%;
+  }
+}
+
+/* ---------- Large desktops (>=1024px) ---------- */
+@media (min-width: 1024px) {
+  /* Breathing room on very wide screens */
+  body {
+    font-size: 1rem;
+  }
 }
