@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="مدرسة آفاق - بشار | بوابتكم نحو التميز المهني والتكنولوجي في ولاية بشار. تسجيل في تخصصات: تسيير الموارد البشرية، الشبكات، والأمن السيبراني." />
-  <meta name="keywords" content="مدرسة آفاق, بشار, تكوين مهني, تسيير الموارد البشرية, شبكات, أمن سيبراني, تسجيل" />
+  <meta name="description" content="مدرسة آفاق - بشار | بوابتكم نحو التميز المهني والتكنولوجي في ولاية بشار. تسجيل في تخصصات: الميكرو معلوماتية، تقني مستغل المعلوماتية، تسيير الموارد البشرية، الشبكات، الأمن السيبراني، المحاسبة والتسيير، وأمانة المديرية." />
+  <meta name="keywords" content="مدرسة آفاق, آفاق بشار, تكوين مهني, ميكرو معلوماتية, تقني مستغل المعلوماتية, تسيير الموارد البشرية, شبكات, أمن سيبراني, محاسبة وتسيير, أمانة المديرية, تسجيل" />
   <meta name="author" content="مدرسة آفاق - بشار" />
   <meta property="og:title" content="مدرسة آفاق - بشار | بوابتكم نحو التميز المهني والتكنولوجي" />
-  <meta property="og:description" content="انضم إلى مدرسة آفاق في بشار وسجّل في أحد تخصصاتنا المتميزة: تسيير الموارد البشرية، الشبكات، والأمن السيبراني." />
+  <meta property="og:description" content="انضم إلى مدرسة آفاق بشار وسجّل في أحد تخصصاتنا السبعة: الميكرو معلوماتية، تقني مستغل المعلوماتية، الموارد البشرية، الشبكات، الأمن السيبراني، المحاسبة والتسيير، وأمانة المديرية." />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#0f2350" />
   <title>مدرسة آفاق - بشار | بوابتكم نحو التميز المهني والتكنولوجي</title>
@@ -20,8 +20,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
 
-  <!-- Favicon -->
+  <!-- Favicon: official school logo -->
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/jpeg" href="images/logo-afaq.jpg" />
 
   <!-- Custom styles (extend Tailwind config + animations) -->
   <link rel="stylesheet" href="css/style.css" />
@@ -106,12 +107,7 @@
   <!-- ======================= PRELOADER ======================= -->
   <div id="preloader" class="fixed inset-0 z-[100] flex items-center justify-center bg-navy-900 transition-opacity duration-700">
     <div class="text-center">
-      <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-700 shadow-gold-glow">
-        <svg class="h-9 w-9 text-white" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 14.18L3.24 12 12 6.35 20.76 12 12 17.18z"/>
-          <path d="M5 14.5V18c2.5 2 6.5 2.6 9 1.5v-3.2L5 14.5z"/>
-        </svg>
-      </div>
+      <img src="images/logo-afaq.jpg" alt="شعار مدرسة آفاق - بشار" class="mx-auto mb-4 h-20 w-20 rounded-2xl bg-white object-contain p-1 shadow-gold-glow" />
       <p class="text-lg font-bold text-white">مدرسة آفاق - بشار</p>
       <div class="mx-auto mt-3 h-1 w-32 overflow-hidden rounded-full bg-white/20">
         <div id="preloader-bar" class="h-full w-0 rounded-full bg-gold-400 transition-all duration-500"></div>
@@ -125,14 +121,10 @@
       <div class="flex items-center justify-between py-4">
         <!-- Logo / Brand -->
         <a href="#home" class="flex items-center gap-3">
-          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-700 text-white shadow-md">
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 14.18L3.24 12 12 6.35 20.76 12 12 17.18z"/>
-            </svg>
-          </div>
+          <img src="images/logo-afaq.jpg" alt="شعار مدرسة آفاق - بشار" class="h-12 w-12 rounded-xl bg-white object-contain p-0.5 shadow-md" />
           <div class="leading-tight">
-            <span class="block text-lg font-extrabold text-white">مدرسة آفاق</span>
-            <span class="block text-xs font-medium text-gold-300">بشار · آفاق المستقبل</span>
+            <span class="block text-lg font-extrabold text-white">مدرسة آفاق بشار</span>
+            <span class="block text-xs font-medium text-gold-300">تكوين مهني معتمد</span>
           </div>
         </a>
 
@@ -142,6 +134,7 @@
           <li><a href="#specialties" class="nav-link font-medium text-white/90 transition hover:text-gold-300">التخصصات</a></li>
           <li><a href="#stats" class="nav-link font-medium text-white/90 transition hover:text-gold-300">إحصائيات</a></li>
           <li><a href="#register" class="nav-link font-medium text-white/90 transition hover:text-gold-300">التسجيل</a></li>
+          <li><a href="https://takwin.dz/" target="_blank" rel="noopener" class="nav-link font-medium text-white/90 transition hover:text-gold-300">المنصة الرسمية</a></li>
           <li><a href="#contact" class="nav-link font-medium text-white/90 transition hover:text-gold-300">اتصل بنا</a></li>
         </ul>
 
@@ -168,6 +161,7 @@
           <li><a href="#specialties" class="mobile-nav-link block rounded-lg px-4 py-3 font-medium text-slate-700 transition hover:bg-navy-50 hover:text-navy-700">التخصصات</a></li>
           <li><a href="#stats" class="mobile-nav-link block rounded-lg px-4 py-3 font-medium text-slate-700 transition hover:bg-navy-50 hover:text-navy-700">إحصائيات</a></li>
           <li><a href="#register" class="mobile-nav-link block rounded-lg px-4 py-3 font-medium text-slate-700 transition hover:bg-navy-50 hover:text-navy-700">التسجيل</a></li>
+          <li><a href="https://takwin.dz/" target="_blank" rel="noopener" class="mobile-nav-link block rounded-lg px-4 py-3 font-medium text-slate-700 transition hover:bg-navy-50 hover:text-navy-700">المنصة الرسمية</a></li>
           <li><a href="#contact" class="mobile-nav-link block rounded-lg px-4 py-3 font-medium text-slate-700 transition hover:bg-navy-50 hover:text-navy-700">اتصل بنا</a></li>
           <li class="mt-2 border-t border-slate-100 pt-2">
             <a href="#register" class="block rounded-lg bg-gold-500 px-4 py-3 text-center font-bold text-navy-900 transition hover:bg-gold-400">سجل الآن</a>
@@ -193,13 +187,6 @@
         <div class="grid items-center gap-12 lg:grid-cols-2">
           <!-- Hero text -->
           <div class="text-center lg:text-right">
-            <span class="reveal inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-500/10 px-4 py-1.5 text-sm font-medium text-emerald-300">
-              <span class="relative flex h-2.5 w-2.5">
-                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
-                <span class="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400"></span>
-              </span>
-              التسجيل مفتوح للسنة الدراسية 2026 / 2027
-            </span>
 
             <h1 class="reveal mt-6 text-3xl font-extrabold leading-snug text-white sm:text-4xl lg:text-5xl lg:leading-snug">
               مرحباً بكم في
@@ -239,7 +226,7 @@
             <div class="absolute inset-0 animate-pulse-ring rounded-3xl bg-emerald-500/30"></div>
             <div class="relative rounded-3xl bg-white/10 p-8 shadow-card-hover backdrop-blur-md border border-white/10">
               <div class="flex items-center justify-between">
-                <span class="rounded-full bg-gold-500/20 px-4 py-1.5 text-sm font-bold text-gold-300">شهادة تقني سامي</span>
+                <span class="rounded-full bg-gold-500/20 px-4 py-1.5 text-sm font-bold text-gold-300">شهادات معتمدة وطنياً ودولياً</span>
                 <svg class="h-11 w-11 text-gold-300" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 14.18L3.24 12 12 6.35 20.76 12 12 17.18z"/>
                   <path d="M5 14.5V18c2.5 2 6.5 2.6 9 1.5v-3.2L5 14.5z"/>
@@ -254,18 +241,18 @@
                   </div>
                   <div>
                     <p class="font-bold text-white">تسيير الموارد البشرية</p>
-                    <p class="text-sm text-slate-300">إدارة حديثة وعصرية</p>
+                    <p class="text-sm text-slate-300">إدارة حديثة وعصرية · 30 شهراً</p>
                   </div>
                 </div>
                 <div class="flex items-center gap-4 rounded-2xl bg-white/5 p-4">
                   <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-500/20">
                     <svg class="h-7 w-7 text-gold-300" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20a2 2 0 110-4 2 2 0 010 4zm7-12a2 2 0 110-4 2 2 0 010 4zm7 12a2 2 0 110-4 2 2 0 010 4z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 8h6m-5 4h4m-7 8l-2 3h16l-2-3M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"/>
                     </svg>
                   </div>
                   <div>
-                    <p class="font-bold text-white">الشبكات</p>
-                    <p class="text-sm text-slate-300">أساس البنية الرقمية</p>
+                    <p class="font-bold text-white">المحاسبة والتسيير</p>
+                    <p class="text-sm text-slate-300">تكوين عملي · 30 شهراً</p>
                   </div>
                 </div>
                 <div class="flex items-center gap-4 rounded-2xl bg-white/5 p-4">
@@ -276,7 +263,18 @@
                   </div>
                   <div>
                     <p class="font-bold text-white">الأمن السيبراني</p>
-                    <p class="text-sm text-slate-300">حماية المستقبل الرقمي</p>
+                    <p class="text-sm text-slate-300">حماية المستقبل الرقمي · 30 شهراً</p>
+                  </div>
+                </div>
+                <div class="flex items-center gap-4 rounded-2xl bg-white/5 p-4">
+                  <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-500/20">
+                    <svg class="h-7 w-7 text-gold-300" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m4 10V11m4 6V9M5 21h14a1 1 0 001-1V4a1 1 0 00-1-1H5a1 1 0 00-1 1v16a1 1 0 001 1z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-bold text-white">عامل في الميكرو معلوماتية</p>
+                    <p class="text-sm text-slate-300">مهارات عملية مطلوبة · 18 شهراً</p>
                   </div>
                 </div>
               </div>
@@ -300,108 +298,388 @@
           <h2 class="reveal mt-4 text-3xl font-extrabold text-navy-800 sm:text-4xl">التخصصات المتاحة</h2>
           <div class="reveal mx-auto mt-4 h-1.5 w-24 rounded-full bg-gradient-to-l from-gold-500 to-emerald-500"></div>
           <p class="reveal mx-auto mt-5 max-w-2xl text-lg text-slate-600">
-            ثلاثة تخصصات تقني سامي بتكوين نظري وعملي، مؤطَّرة من خبراء ومصمَّمة لمواكبة متطلبات سوق العمل في بشار وخارجها.
+            سبعة تخصصات بين عامل مؤهل وتقني وتقني سامي، بتكوين نظري وعملي مؤطَّر من خبراء، ومصمَّمة لمواكبة
+            متطلبات سوق العمل في بشار وخارجها.
           </p>
         </div>
 
         <!-- Specialties cards -->
         <div class="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <!-- Card 1: HR Management -->
-          <article class="reveal group relative overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="1">
+
+          <!-- Card 1: Opérateur en Micro Informatique -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="1">
+            <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-sky-400 to-sky-600"></div>
+            <div class="relative h-44 shrink-0 overflow-hidden">
+              <img src="images/micro-info.svg" alt="حاسوب مكتبي بشاشة تعرض أكواداً برمجية" loading="lazy"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-sky-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: 18 شهراً
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-sky-500 px-3 py-1 text-xs font-bold text-white shadow-sm">عامل مؤهل</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">عامل في الميكرو معلوماتية</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-sky-600" dir="ltr">OPÉRATEUR EN MICRO INFORMATIQUE</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                تكوين تقني… مستقبل مضمون! اكتسب مهارات عملية مطلوبة في سوق العمل وكن مختصاً في عالم التكنولوجيا.
+              </p>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>مؤهَّل للحصول على تمويل مشاريع</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>شهادة رسمية معترف بها وطنياً ودولياً</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>تكوين تطبيقي مع أساتذة مختبرين</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>فرص عمل واسعة في مختلف المجالات</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-sky-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-sky-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>صيانة وتركيب أجهزة الحاسوب وملحقاتها</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>تثبيت وإعداد أنظمة التشغيل والبرامج</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>معالجة النصوص والجداول والعروض التقديمية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>استخدام شبكة الإنترنت والبريد الإلكتروني</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>التعامل مع قواعد البيانات الأساسية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-sky-600">✓</span><span>الصيانة الوقائية وحل الأعطال</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="عامل في الميكرو معلوماتية" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-sky-600 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Technicien en Informatique -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="2">
+            <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-indigo-400 to-indigo-600"></div>
+            <div class="relative h-44 shrink-0 overflow-hidden">
+              <img src="images/technicien-info.svg" alt="حاسوب محمول مع أدوات صيانة وترس" loading="lazy"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-indigo-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: 24 شهراً
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-indigo-500 px-3 py-1 text-xs font-bold text-white shadow-sm">تقني</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">تقني مستغل في المعلوماتية</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-indigo-600" dir="ltr">TECHNICIEN EN INFORMATIQUE</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                مستقبلك في عالم التقنية يبدأ من هنا! تكوين عملي وتطبيقي يؤهلك لاندماج سريع في سوق العمل
+                أو إطلاق مشاريعك الخاصة بثقة وكفاءة.
+              </p>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>مؤهَّل للحصول على تمويل مشاريع</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>شهادة رسمية معترف بها وطنياً ودولياً</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>تكوين تطبيقي مع أساتذة مختبرين</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>فرص عمل واسعة في مختلف المجالات</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-indigo-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-indigo-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>صيانة وتركيب أجهزة الإعلام الآلي</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>تثبيت وإدارة أنظمة التشغيل والشبكات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>تطوير المواقع والتطبيقات وقواعد البيانات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>الأمن السيبراني وحماية البيانات والمعلومات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-indigo-600">✓</span><span>حل المشاكل التقنية وتقديم الدعم للمستخدمين</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="تقني مستغل في المعلوماتية" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-indigo-600 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Ressources Humaines GRH -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="3">
             <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-emerald-500 to-emerald-600"></div>
-            <!-- Real photo of the specialty -->
-            <div class="relative h-52 overflow-hidden">
+            <div class="relative h-44 shrink-0 overflow-hidden">
               <img src="images/hr.jpg" alt="جلسة تكوين عملية في تسيير الموارد البشرية" loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/85 via-navy-900/20 to-transparent"></div>
-              <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-navy-800 shadow-sm backdrop-blur">سنة واحدة</span>
-              <div class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-500 text-white shadow-lg transition group-hover:scale-110">
-                <svg class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.36-1.86M17 20H7m10 0v-2a3 3 0 00-2.4-2.94M7 20H2v-2a3 3 0 015.36-1.86M7 20v-2a3 3 0 012.4-2.94M16 4a2 2 0 11-4 0 2 2 0 014 0zm-8 0a2 2 0 11-4 0 2 2 0 014 0z"/>
-                </svg>
-              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: 30 شهراً
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-emerald-500 px-3 py-1 text-xs font-bold text-white shadow-sm">تقني سامي</span>
             </div>
-            <div class="p-8 pt-6">
-              <h3 class="text-xl font-extrabold text-navy-800">تقني سامي في تسيير الموارد البشرية</h3>
-              <p class="mt-3 leading-relaxed text-slate-600">
-                تخصص يهيئك للتمكّن من وظائف إدارة الموارد البشرية: التوظيف، التكوين، تسيير المسارات المهنية
-                وتنظيم العمل، وفق أحدث الأساليب الإدارية الحديثة.
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">تقني سامي في تسيير الموارد البشرية</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-emerald-600" dir="ltr">SPÉCIALITÉ RESSOURCES HUMAINES GRH</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                بناء الكفاءات… إدارة المستقبل. تخصص حديث يفتح لك أبواب إدارة الموارد البشرية في القطاعين العام والخاص.
               </p>
-              <ul class="mt-5 space-y-2 text-sm text-slate-600">
-                <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> شهادة تقني سامي معترف بها</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> تطبيقات عملية وحالات دراسية</li>
-                <li class="flex items-center gap-2"><span class="text-emerald-600">✓</span> فرص تدريب مهني بالمؤسسات</li>
-              </ul>
-              <a href="#register" data-specialty="تقني سامي في تسيير الموارد البشرية" class="specialty-btn mt-7 flex items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-emerald-600 group-hover:shadow-lg">
-                سجل في هذا التخصص
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-              </a>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>تكوين حديث يواكب متطلبات سوق العمل</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>ورشات عمل وتطبيقات عملية على برامج احترافية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>مرافقة فردية وتشجيع على ريادة الأعمال</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>فرص تربص في مؤسسات وشركات</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-emerald-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-emerald-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>إدارة التوظيف والاستقطاب</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>تسيير المسار المهني والتدريب</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>إدارة الأجور والحوافز</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>التشريعات والقانون الاجتماعي</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>التواصل الداخلي وحل النزاعات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-emerald-600">✓</span><span>استخدام أدوات رقمية حديثة</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="تقني سامي في تسيير الموارد البشرية" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-emerald-600 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
+              </div>
             </div>
           </article>
 
-          <!-- Card 2: Networking -->
-          <article class="reveal group relative overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="2">
-            <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-gold-500 to-gold-600"></div>
-            <!-- Real photo of the specialty -->
-            <div class="relative h-52 overflow-hidden">
-              <img src="images/networks.jpg" alt="غرفة خوادم وأسلاك شبكات في مختبر التكوين" loading="lazy"
-                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/85 via-navy-900/20 to-transparent"></div>
-              <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-navy-800 shadow-sm backdrop-blur">سنة واحدة</span>
-              <div class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gold-500 text-navy-900 shadow-lg transition group-hover:scale-110">
-                <svg class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20a2 2 0 110-4 2 2 0 010 4zm7-12a2 2 0 110-4 2 2 0 010 4zm7 12a2 2 0 110-4 2 2 0 010 4z"/>
-                </svg>
-              </div>
-            </div>
-            <div class="p-8 pt-6">
-              <h3 class="text-xl font-extrabold text-navy-800">تقني سامي في الشبكات</h3>
-              <p class="mt-3 leading-relaxed text-slate-600">
-                تخصص يمنحك المهارات اللازمة لتصميم الشبكات وتركيبها وتأمينها وصيانتها، مع إلمام عملي بأشهر
-                البروتوكولات وأجهزة التوجيه والمبدلات.
-              </p>
-              <ul class="mt-5 space-y-2 text-sm text-slate-600">
-                <li class="flex items-center gap-2"><span class="text-gold-600">✓</span> مخابر شبكات مجهزة بالكامل</li>
-                <li class="flex items-center gap-2"><span class="text-gold-600">✓</span> تحضير لشهادات عالمية (Cisco / CCNA)</li>
-                <li class="flex items-center gap-2"><span class="text-gold-600">✓</span> تكوين عملي على الأجهزة الحقيقية</li>
-              </ul>
-              <a href="#register" data-specialty="تقني سامي في الشبكات" class="specialty-btn mt-7 flex items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-gold-500 group-hover:text-navy-900 group-hover:shadow-lg">
-                سجل في هذا التخصص
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-              </a>
-            </div>
-          </article>
-
-          <!-- Card 3: Cybersecurity -->
-          <article class="reveal group relative overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover md:col-span-2 lg:col-span-1" data-delay="3">
+          <!-- Card 4: Cyber Security -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="1">
             <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-navy-500 to-navy-700"></div>
-            <!-- Real photo of the specialty -->
-            <div class="relative h-52 overflow-hidden">
+            <div class="relative h-44 shrink-0 overflow-hidden">
               <img src="images/cybersecurity.jpg" alt="قفل رقمي على لوحة مفاتيح يرمز إلى الأمن السيبراني" loading="lazy"
                 class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
-              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/85 via-navy-900/20 to-transparent"></div>
-              <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-navy-800 shadow-sm backdrop-blur">سنة واحدة</span>
-              <div class="absolute bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-xl bg-navy-800 text-white shadow-lg transition group-hover:scale-110">
-                <svg class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.6-2.6A11.95 11.95 0 0112 2a11.95 11.95 0 01-8.6 3.4A12 12 0 0012 22a12 12 0 008.6-16.6z"/>
-                </svg>
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-navy-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: 30 شهراً
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-navy-700 px-3 py-1 text-xs font-bold text-white shadow-sm">تقني سامي</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">تقني سامي في الأمن السيبراني</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-navy-600" dir="ltr">SPÉCIALITÉ CYBER SECURITY</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                مهارة اليوم… حماية الغد. كن من النخبة في مجال الأمن السيبراني وابنِ مستقبلك في واحدة من أكثر
+                المجالات طلباً ونموًا في العالم.
+              </p>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>مجال مطلوب محلياً ودولياً وباستمرار</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>فرص عمل واسعة برواتب مجزية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>تطوير مهارات عملية متخصصة</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>مساهمة في حماية المؤسسات والأفراد</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-navy-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-navy-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>أساسيات الأمن السيبراني</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>أمن الشبكات والبروتوكولات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>إدارة المخاطر والتهديدات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>اختبار الاختراق والثغرات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>أمن التطبيقات والويب</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-navy-600">✓</span><span>أمن الأنظمة والتشفير</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="تقني سامي في الأمن السيبراني" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-navy-700 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
               </div>
             </div>
-            <div class="p-8 pt-6">
-              <h3 class="text-xl font-extrabold text-navy-800">تقني سامي في الأمن السيبراني</h3>
-              <p class="mt-3 leading-relaxed text-slate-600">
-                تخصص يهيئك للدفاع عن الأنظمة والمعلومات، عبر تعلم تقنيات حماية البيانات، أمن الشبكات، تحليل
-                الثغرات وإدارة المخاطر الرقمية.
+          </article>
+
+          <!-- Card 5: Comptabilité et Gestion -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="2">
+            <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-gold-400 to-gold-600"></div>
+            <div class="relative h-44 shrink-0 overflow-hidden">
+              <img src="images/comptabilite.svg" alt="آلة حاسبة ورسم بياني صاعد ترمز للمحاسبة والتسيير" loading="lazy"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-gold-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: 30 شهراً
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-gold-500 px-3 py-1 text-xs font-bold text-navy-900 shadow-sm">تقني سامي</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">تقني سامي في المحاسبة والتسيير</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-gold-600" dir="ltr">SPÉCIALITÉ COMPTABILITÉ ET GESTION</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                تكوين عملي… مستقبل مضمون. مهارات محاسبية وتسييرية تفتح لك أبواب التوظيف في مختلف القطاعات.
               </p>
-              <ul class="mt-5 space-y-2 text-sm text-slate-600">
-                <li class="flex items-center gap-2"><span class="text-navy-600">✓</span> منصة تدريب عملي متخصصة</li>
-                <li class="flex items-center gap-2"><span class="text-navy-600">✓</span> أخلاقيات وأمن المعلومات</li>
-                <li class="flex items-center gap-2"><span class="text-navy-600">✓</span> مطلوب بقوة في سوق العمل</li>
-              </ul>
-              <a href="#register" data-specialty="تقني سامي في الأمن السيبراني" class="specialty-btn mt-7 flex items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-navy-700 group-hover:shadow-lg">
-                سجل في هذا التخصص
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-              </a>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>فرص عمل واسعة: مطلوبة في جميع القطاعات العمومية والخاصة</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>شهادة معترف بها: رسمية وطنياً ودولياً</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>تكوين تطبيقي: مع أساتذة مختبرين ومتمكنين في المجال</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>مستقبل مضمون: مهارات عملية تؤهلك لمستقبل مهني ناجح</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-amber-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>المحاسبة العامة والتحليل المالي</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>تسيير الميزانية والضرائب والجباية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>استخدام برامج المحاسبة الحديثة</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>تدريب ميداني داخل المؤسسات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-gold-600">✓</span><span>متابعة شخصية وتوجيه مهني مستمر</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="تقني سامي في المحاسبة والتسيير" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-gold-500 group-hover:text-navy-900 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Secrétariat de la Direction -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover" data-delay="3">
+            <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-rose-400 to-rose-600"></div>
+            <div class="relative h-44 shrink-0 overflow-hidden">
+              <img src="images/secretariat.svg" alt="هاتف مكتبي ومفكرة وساعة ترمز لأمانة المديرية" loading="lazy"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: 30 شهراً
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-rose-500 px-3 py-1 text-xs font-bold text-white shadow-sm">تقني سامي</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">تقني سامي في أمانة المديرية</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-rose-600" dir="ltr">SPÉCIALITÉ SECRÉTARIAT DE LA DIRECTION</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                مستقبلك يبدأ من هنا! تكوين تطبيقي عالي الجودة يؤهلك لمهام إدارة المكاتب والتنظيم والتواصل
+                الاحترافي في مختلف المؤسسات.
+              </p>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تخصص حديث ومطلوب</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تكوين متكامل يجمع بين النظرية والتطبيق</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>فرص توظيف محلية ودولية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تأهيل للمسؤولية وبيئة عمل ديناميكية ومنوّعة</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-rose-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-rose-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تقنيات التحرير والاتصال الإداري</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>إدارة الأجندات والمواعيد</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تنظيم الاجتماعات والأسفار</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تقنيات الأرشيف وضبط المعلومات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تقنيات الاستقبال والتواصل المهني</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-rose-600">✓</span><span>تربص ميداني في مؤسسات اقتصادية</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="تقني سامي في أمانة المديرية" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-rose-600 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 7: Networking -->
+          <article class="reveal group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white shadow-md transition duration-500 hover:-translate-y-3 hover:shadow-card-hover md:col-span-2 lg:col-span-1 lg:col-start-2" data-delay="1">
+            <div class="absolute inset-x-0 top-0 z-10 h-1.5 bg-gradient-to-l from-teal-400 to-teal-600"></div>
+            <div class="relative h-44 shrink-0 overflow-hidden">
+              <img src="images/networks.jpg" alt="غرفة خوادم وأسلاك شبكات في مختبر التكوين" loading="lazy"
+                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-navy-900/70 via-transparent to-transparent"></div>
+              <span class="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-extrabold text-navy-800 shadow-sm backdrop-blur">
+                <svg class="h-3.5 w-3.5 text-teal-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                مدة التكوين: سنة واحدة
+              </span>
+              <span class="absolute right-4 top-4 rounded-full bg-teal-600 px-3 py-1 text-xs font-bold text-white shadow-sm">تقني سامي</span>
+            </div>
+            <div class="flex flex-1 flex-col p-6 pt-5">
+              <h3 class="text-lg font-extrabold text-navy-800">تقني سامي في الشبكات والأنظمة المعلوماتية</h3>
+              <p class="mt-1 text-[11px] font-bold tracking-wider text-teal-600" dir="ltr">SPÉCIALITÉ RÉSEAUX</p>
+              <p class="mt-3 text-sm leading-relaxed text-slate-600">
+                أساس البنية الرقمية. تخصص يمنحك مهارات تصميم الشبكات وتركيبها وتأمينها وصيانتها بإلمام عملي.
+              </p>
+              <div class="mt-5 rounded-2xl bg-slate-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-gold-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.363 1.118l1.286 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.367 2.445c-.783.57-1.838-.196-1.538-1.118l1.285-3.957a1 1 0 00-.363-1.118L2.98 9.385c-.783-.57-.38-1.81.588-1.81h4.163a1 1 0 00.95-.69l1.286-3.958z"/></svg>
+                  لماذا تختار هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>مخابر شبكات مجهزة بالكامل</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>تحضير لشهادات عالمية (Cisco / CCNA)</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>تكوين عملي على الأجهزة الحقيقية</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>مطلوب باستمرار في سوق العمل</span></li>
+                </ul>
+              </div>
+              <div class="mt-3 rounded-2xl bg-teal-50 p-4">
+                <h4 class="flex items-center gap-2 text-sm font-extrabold text-navy-800">
+                  <svg class="h-4 w-4 text-teal-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  ماذا ستتعلم في هذا التخصص؟
+                </h4>
+                <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed text-slate-600">
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>تصميم الشبكات وتركيبها</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>تأمين الشبكات وصيانتها</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>أشهر بروتوكولات الشبكات</span></li>
+                  <li class="flex items-start gap-2"><span class="mt-0.5 shrink-0 text-teal-600">✓</span><span>إعداد أجهزة التوجيه والمبدلات</span></li>
+                </ul>
+              </div>
+              <div class="mt-auto pt-5">
+                <a href="#register" data-specialty="تقني سامي في الشبكات والأنظمة المعلوماتية" class="specialty-btn flex w-full items-center justify-center gap-2 rounded-xl bg-navy-800 py-3 font-bold text-white transition group-hover:bg-teal-600 group-hover:shadow-lg">
+                  سجل في هذا التخصص
+                  <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+                </a>
+              </div>
             </div>
           </article>
         </div>
@@ -457,7 +735,7 @@
               </svg>
             </div>
             <p class="mt-5 text-4xl font-extrabold text-white">
-              <span class="counter" data-target="3" data-suffix="">0</span>
+              <span class="counter" data-target="7" data-suffix="">0</span>
             </p>
             <p class="mt-2 font-medium text-slate-300">التخصصات المتاحة</p>
           </div>
@@ -594,7 +872,7 @@
             <p class="mt-2 text-slate-600">تكفي الاستمارة أدناه لطلب التسجيل، وتُقدَّم الوثائق التالية عند تأكيد التسجيل بالمدرسة:</p>
           </div>
 
-          <div class="mt-7 grid gap-5 sm:grid-cols-3">
+          <div class="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             <!-- شهادة الميلاد -->
             <div class="group flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-emerald-300 hover:shadow-card-hover">
               <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600 transition group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white">
@@ -627,11 +905,25 @@
               <p class="mt-4 font-extrabold text-navy-800">نسخة من بطاقة التعريف الوطنية</p>
               <span class="mt-2 rounded-full bg-navy-100 px-3 py-1 text-xs font-bold text-navy-700">نسخة واحدة</span>
             </div>
+
+            <!-- صورتان شمسيتان -->
+            <div class="group flex flex-col items-center rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1.5 hover:border-emerald-300 hover:shadow-card-hover">
+              <div class="flex h-14 w-14 items-center justify-center rounded-xl bg-emerald-100 text-emerald-600 transition group-hover:scale-110 group-hover:bg-emerald-600 group-hover:text-white">
+                <svg class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"/>
+                </svg>
+              </div>
+              <p class="mt-4 font-extrabold text-navy-800">صورتان شمسيتان</p>
+              <span class="mt-2 rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-700">أحدث صورتان</span>
+            </div>
           </div>
 
           <p class="mt-6 text-center text-sm text-slate-500">
             للترشيح والاستفسار، اتصل بنا على
             <a href="tel:+21366469828" dir="ltr" class="font-extrabold text-navy-700 transition hover:text-emerald-600">06 66 46 98 28</a>
+            أو
+            <a href="tel:+213664983202" dir="ltr" class="font-extrabold text-navy-700 transition hover:text-emerald-600">06 64 98 32 02</a>
           </p>
         </div>
 
@@ -706,9 +998,13 @@
                 <select id="specialty" name="specialty" required
                   class="w-full appearance-none rounded-xl border-2 border-slate-200 bg-slate-50 px-4 py-3 pr-11 transition outline-none focus:border-emerald-500 focus:bg-white focus:ring-4 focus:ring-emerald-100">
                   <option value="" disabled selected>اختر التخصص...</option>
-                  <option value="تقني سامي في تسيير الموارد البشرية">تقني سامي في تسيير الموارد البشرية</option>
-                  <option value="تقني سامي في الشبكات">تقني سامي في الشبكات</option>
-                  <option value="تقني سامي في الأمن السيبراني">تقني سامي في الأمن السيبراني</option>
+                  <option value="عامل في الميكرو معلوماتية">عامل في الميكرو معلوماتية (18 شهراً)</option>
+                  <option value="تقني مستغل في المعلوماتية">تقني مستغل في المعلوماتية (24 شهراً)</option>
+                  <option value="تقني سامي في تسيير الموارد البشرية">تقني سامي في تسيير الموارد البشرية (30 شهراً)</option>
+                  <option value="تقني سامي في الشبكات والأنظمة المعلوماتية">تقني سامي في الشبكات والأنظمة المعلوماتية</option>
+                  <option value="تقني سامي في الأمن السيبراني">تقني سامي في الأمن السيبراني (30 شهراً)</option>
+                  <option value="تقني سامي في المحاسبة والتسيير">تقني سامي في المحاسبة والتسيير (30 شهراً)</option>
+                  <option value="تقني سامي في أمانة المديرية">تقني سامي في أمانة المديرية (30 شهراً)</option>
                 </select>
                 <svg class="absolute top-4 left-4 h-5 w-5 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
@@ -730,6 +1026,29 @@
             بتقديمك هذا الطلب فأنت توافق على معالجة بياناتك الشخصية من طرف إدارة المدرسة لغرض التسجيل فقط.
           </p>
         </form>
+
+        <!-- ===== منصة التكوين المهني الرسمية (تأكيد التسجيل) ===== -->
+        <div class="reveal mt-10 rounded-3xl border-2 border-emerald-200 bg-white p-8 text-center shadow-card-hover sm:p-10">
+          <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-700 text-white shadow-lg">
+            <svg class="h-8 w-8" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.6-2.6A11.95 11.95 0 0112 2a11.95 11.95 0 01-8.6 3.4A12 12 0 0012 22a12 12 0 008.6-16.6z"/>
+            </svg>
+          </div>
+          <h3 class="mt-4 text-xl font-extrabold text-navy-800 sm:text-2xl">التسجيل عبر المنصة الرسمية</h3>
+          <p class="mx-auto mt-2 max-w-xl leading-relaxed text-slate-600">
+            بعد ملء الاستمارة أعلاه والتواصل معنا، يمكنك تأكيد تسجيلك عبر
+            <span class="font-bold text-navy-800">منصة التكوين المهني الرسمية</span>
+            لوزارة التكوين والتعليم المهنيين.
+          </p>
+          <a href="https://takwin.dz//" target="_blank" rel="noopener"
+            class="mt-6 inline-flex items-center gap-2 rounded-full bg-gradient-to-l from-emerald-600 to-emerald-700 px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl">
+            الدخول إلى منصة التكوين المهني
+            <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/>
+            </svg>
+          </a>
+          <p class="mt-3 text-xs font-bold tracking-wide text-slate-400" dir="ltr">takwin.dz</p>
+        </div>
       </div>
     </section>
 
@@ -740,18 +1059,24 @@
           <!-- About / brand -->
           <div>
             <div class="flex items-center gap-3">
-              <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-700 text-white">
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zm0 14.18L3.24 12 12 6.35 20.76 12 12 17.18z"/></svg>
-              </div>
+              <img src="images/logo-afaq.jpg" alt="شعار مدرسة آفاق - بشار" class="h-12 w-12 rounded-xl bg-white object-contain p-0.5" />
               <div>
-                <p class="text-lg font-extrabold text-white">مدرسة آفاق - بشار</p>
-                <p class="text-xs text-gold-300">آفاق المستقبل المهني والتكنولوجي</p>
+                <p class="text-lg font-extrabold text-white">مدرسة آفاق بشار</p>
+                <p class="text-xs text-gold-300">تكوين مهني معتمد</p>
               </div>
             </div>
             <p class="mt-4 text-sm leading-relaxed">
-              مؤسسة تكوينية بولاية بشار، تُقدّم تخصصات تقني سامي في مجالات الإدارة والتكنولوجيا الحديثة،
+              مؤسسة تكوينية بولاية بشار، تُقدّم تخصصات عامل مؤهل وتقني وتقني سامي في مجالات الإدارة والتكنولوجيا الحديثة،
               بهدف تكوين كفاءات شابة جاهزة لسوق العمل.
             </p>
+            <!-- Accreditation: Ministry of Vocational Training -->
+            <div class="mt-5 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-3">
+              <img src="images/ministry-logo.jpg" alt="شعار وزارة التكوين والتعليم المهنيين" class="h-14 w-14 shrink-0 rounded-full bg-white object-contain p-0.5" />
+              <p class="text-xs leading-relaxed text-slate-300">
+                <span class="font-bold text-white">مؤسسة معتمدة في التكوين المهني</span>
+                تحت إشراف <span class="font-bold text-white">وزارة التكوين والتعليم المهنيين</span>.
+              </p>
+            </div>
           </div>
 
           <!-- Contact info -->
@@ -780,6 +1105,14 @@
               <li class="flex items-center gap-3">
                 <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/10 text-gold-300">
                   <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.5a1 1 0 01.9.55l1.2 2.4a1 1 0 01-.1 1.1L8.3 9a13 13 0 006.7 6.7l1.05-1.2a1 1 0 011.1-.1l2.4 1.2a1 1 0 01.55.9V19a2 2 0 01-2 2h-1C9.7 21 3 14.3 3 6V5z"/>
+                  </svg>
+                </span>
+                <a href="tel:+213664983202" dir="ltr" class="font-bold transition hover:text-gold-300">06 64 98 32 02</a>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-white/10 text-gold-300">
+                  <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6m-18 0a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/>
                   </svg>
                 </span>
@@ -796,7 +1129,7 @@
               </span>
               <div>
                 <p class="font-bold text-white">أوقات الاستقبال</p>
-                <p class="mt-1 text-sm text-slate-300">الأحد – الخميس: <span dir="ltr">8:00 – 16:00</span></p>
+                <p class="mt-1 text-sm text-slate-300">السبت إلى الخميس: <span>9 صباحاً – 8 مساءً</span></p>
               </div>
             </div>
           </div>
@@ -805,7 +1138,7 @@
           <div>
             <h4 class="text-lg font-extrabold text-white">تابعنا على</h4>
             <div class="mt-4 flex items-center gap-3">
-              <a href="#" aria-label="فيسبوك" class="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 transition hover:-translate-y-1 hover:bg-blue-600 hover:text-white">
+              <a href="https://www.facebook.com/share/p/1cRmRoxU3E/" target="_blank" rel="noopener" aria-label="فيسبوك" class="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 transition hover:-translate-y-1 hover:bg-blue-600 hover:text-white">
                 <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.7c0-.9.3-1.6 1.6-1.6h1.6V4.2c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1v2.6H7.6V14h2.7v8h3.2z"/></svg>
               </a>
               <a href="#" aria-label="انستغرام" class="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 transition hover:-translate-y-1 hover:bg-pink-600 hover:text-white">
@@ -840,6 +1173,7 @@
 
   <!-- Floating WhatsApp button -->
   <a href="https://wa.me/21366469828?text=سلام، أريد الاستفسار عن التسجيل في مدرسة آفاق - بشار" target="_blank" rel="noopener"
+    id="whatsapp-btn"
     aria-label="تواصل معنا عبر واتساب"
     class="group fixed bottom-6 right-6 z-40 flex items-center justify-center">
     <span class="absolute inline-flex h-14 w-14 animate-ping rounded-full bg-green-400 opacity-30"></span>
